@@ -1,0 +1,22 @@
+.hoverdiv{
+    flex: 1;
+    height: 90px;
+    display:flex;
+    justify-content:space-around;
+    align-items: left;
+    flex-direction: column;
+}
+
+
+
+.hoverdiv .name{
+    font-size: 25px;
+}
+
+.nameValue{
+    font-size: 17px;
+}
+
+.mapmode{
+    flex: 1;
+}

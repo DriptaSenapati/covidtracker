@@ -1,0 +1,21 @@
+table{
+    border-collapse:unset !important;
+    border-spacing: 2px !important;
+}
+
+thead tr th{
+    margin:5px !important;
+}
+
+/* .MuiTableCell-head{
+    font-size: 10px !important;
+    text-align: center !important;
+} */
+
+
+.MuiTableCell-root{
+    padding:10px !important;
+    font-size: 12px !important;
+}
+
+

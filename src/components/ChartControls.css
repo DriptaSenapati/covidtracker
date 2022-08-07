@@ -1,0 +1,36 @@
+.datevalue{
+    height: 70px;
+    margin-top: 20px;
+}
+
+.datevalue .datevalue_confirmed{
+    color: rgb(238, 88, 78);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.datevalue .datevalue_recovered{
+    color: rgb(146, 238, 84);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.datevalue .datevalue_deceased{
+    color: rgb(112, 110, 110);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.datevalue_counts div{
+    font-size: 10px;
+    text-align: center;
+}

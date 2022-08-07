@@ -1,0 +1,65 @@
+.cardContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top:40px;
+}
+
+.confirmed,.deceased,.recovered{
+    min-height: 200px;
+    padding: 15px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius:10px !important;
+    cursor: pointer;
+    transition: all 0.7s ease !important;
+    background-color:transparent !important;
+    box-shadow: none !important;
+    text-align: center;
+}
+
+.confirmed{
+    color: rgb(238, 88, 78) !important;
+}
+
+.confirmed.clicked,.confirmed:hover{
+    background-color: rgba(238, 89, 78, 0.267) !important;
+    color: rgb(255 86 74) !important;
+}
+
+.confirmed.clicked{
+    transform: scale(1.1);
+}
+
+.deceased.clicked,.deceased:hover{
+    background-color: #edebeb2a !important;
+    
+    color: rgb(0, 0, 0) !important;
+}
+
+.deceased.clicked{
+    transform: scale(1.1);
+}
+
+
+.recovered.clicked,.recovered:hover{
+    background-color: rgba(146, 238, 84, 0.13) !important;
+    
+    color: rgb(139, 255, 62) !important;
+}
+
+.recovered.clicked{
+    transform: scale(1.1);
+}
+.deceased{
+    color: rgb(112, 110, 110) !important;
+}
+
+.recovered{
+    color: rgb(146, 238, 84) !important;
+}
+
